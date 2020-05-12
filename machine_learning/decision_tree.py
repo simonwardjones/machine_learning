@@ -76,7 +76,7 @@ class DecisionTree():
         X: numpy.ndarray
             Training data, shape (m samples, n features)
         y: numpy.ndarray
-            Target values, shape (m samples, n features)
+            Target values, shape (m samples, 1)
             If classifier with n_classes the values are assumed to be in
             0, ..., n-1
         """
