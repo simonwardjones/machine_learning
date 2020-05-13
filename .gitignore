@@ -133,3 +133,4 @@ data/mnist
 
 # ide
 .vscode/
+.DS_Store
