@@ -5,7 +5,7 @@ import numpy as np
 from .tree import TreeNode
 
 logging.basicConfig()
-logger = logging.getLogger('decision_tree')
+logger = logging.getLogger(__file__)
 logger.setLevel(logging.INFO)
 
 
@@ -26,8 +26,8 @@ class DecisionTree():
         max_depth: int
             The maximum depth allowed when "growing" a tree
         min_samples_split: int
-            The minimum number of samples required to allow a split at
-            a the node
+            The minimum number of samples required to allow a split at a
+            node
         min_samples_leaf: int
             The minimum number of samples allowed in a leaf. A split
             candidate leading to less samples in a node than the
