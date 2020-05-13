@@ -19,7 +19,7 @@ This contains the source code for each of the implementations (these are the sam
  - [x] Add doc strings to knn
  - [x] Add random forest
  - [x] Add doc strings to random forest
- - [ ] Add gradient boosted decision tree
- - [ ] Add doc strings to gradient boosted decision tree
+ - [x] Add gradient boosted decision tree
+ - [x] Add doc strings to gradient boosted decision tree
  - [ ] Add neural network
  - [ ] Add doc strings to neural network
