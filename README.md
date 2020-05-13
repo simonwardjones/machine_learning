@@ -10,16 +10,12 @@ The notebooks contains derivations and explanations of each method followed by i
 
 This contains the source code for each of the implementations (these are the same as in each notebook)
 
-### To do
- - [x] Add doc strings to Linear regression
- - [x] Add doc strings to logistic regression
- - [x] Add doc strings to tree
- - [x] Add doc strings to decision tree
- - [x] Add and improve knn
- - [x] Add doc strings to knn
- - [x] Add random forest
- - [x] Add doc strings to random forest
- - [x] Add gradient boosted decision tree
- - [x] Add doc strings to gradient boosted decision tree
- - [ ] Add neural network
- - [ ] Add doc strings to neural network
+## Key algorithms covered
+
+ - Linear regression
+ - Logistic regression
+ - Knn
+ - Decision tree
+ - Random forest
+ - Gradient boosted decision tree
+ - Neural network
