@@ -5,7 +5,7 @@ import numpy as np
 from .decision_tree import DecisionTree
 
 logging.basicConfig()
-logger = logging.getLogger('decision_tree')
+logger = logging.getLogger(__file__)
 logger.setLevel(logging.INFO)
 
 
