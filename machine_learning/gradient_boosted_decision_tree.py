@@ -27,11 +27,11 @@ class GradientBoostedDecisionTree():
         gradient of the cost function with respect to the raw predicted
         values at the previous stage. 
 
-        Note the I use the term raw_predictions as raw predicted values 
+        Note I use the term raw_predictions as raw predicted values 
         must be transformed to find the probability estimates in the 
         case of classification.
 
-        In practice this gradients are equal to the residual.
+        In practice these gradients are equal to the residual.
 
         The raw predictions for a stage are made by adding the new delta
         model (multiplied by the learning rate) to the raw predictions
@@ -62,7 +62,7 @@ class GradientBoostedDecisionTree():
             or a regression problem. Should be set to True if
             classification, False if regression
         n_trees: int, optional, default 10
-            Number of trees in the forest
+            Number of trees, equivalently gradient steps
         learning_rate: float, optional, default 0.05
             The learning rate parameter controlling the gradient descent
             step size
